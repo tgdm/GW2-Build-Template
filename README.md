@@ -12,10 +12,10 @@ After your initial set up - and copying the files from this tempalte - you shoul
 # Getting Familiar With the API
 Try not to get overwhelmed - it's easier to use than it looks. You're pretty much going to be changing numbers occasionally and copy&pasting.
 
-The stuff this template has is basic. If you want to add more complex embeds take a look at the [official documentation](https://wiki.guildwars2.com/).
+The stuff this template has is basic. If you want to add more complex embeds take a look at the [official documentation - gw2a storybook](https://madou.github.io/armory-embeds/).
 
 ## Finding API Codes
-You can find almost all codes on [wiki.guildwars2.com](https://wiki.guildwars2.com/wiki/Main_Page) by going to the specific page for an item, skill, or trait. There are a few exceptions and for those I've added reference .txt files in the "Reference Files" folder. For class specialization codes, use reference-specs.txt. For item stat assignments, use reference-stats.txt. You can also use the .html files to preview what they look like.
+You can find almost all codes on [wiki.guildwars2.com](https://wiki.guildwars2.com/) by going to the specific page for an item, skill, or trait. There are a few exceptions and for those I've added reference .txt files in the "Reference Files" folder. For class specialization codes, use reference-specs.txt. For item stat assignments, use reference-stats.txt. You can also use the .html files to preview what they look like.
 
 ## Changing API codes
 I've left in placeholders for you to change as you see fit. You can add more embeds, remove embeds, add more *within* an embed - all up to you. The two most important things are changing the embed type and the item being called.
