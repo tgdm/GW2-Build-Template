@@ -7,6 +7,8 @@ Go here and set up a GitHub account and repository (it has step-by-step instruct
 ##How To Edit These Files
 You're going to want a text editor with formatting support like [Notepad++](https://notepad-plus-plus.org/) or [Atom](https://atom.io/). Atom is probably not as newbie friendly but it has great support with GitHub in general.
 
+After your initial set up - and copying the files from this tempalte - you should have a page which looks like this: [GW2 Build Template](https://tgdm.github.io/GW2-Build-Template/).
+
 #Getting Familiar With the API
 Try not to get overwhelmed - it's easier to use than it looks. You're pretty much going to be changing numbers occasionally and copy&pasting.
 
