@@ -1,0 +1,153 @@
+/*body doc stuff*/
+
+html {
+  background: url('../background.jpg') no-repeat center fixed;
+  background-size: cover;
+  background-color: #4d4d4d;
+}
+
+html, body {
+  min-width: 900px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*cosmetic stuff for text*/
+
+a {
+  color: #e6ac00;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #cc9900;
+  text-decoration: none !important;
+}
+
+h1 {
+  text-shadow: 1px 2px #333;
+}
+
+h2 {
+  text-shadow: 1px 0px #333;
+  background-color: rgba(51, 51, 51, 0.9);
+  height: 40px;
+  line-height: 40px;
+}
+
+body {
+  font-family: 'Montserrat';
+  line-height: 1.0;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*custom divs*/
+
+.center {
+  height: 100%;
+  text-align: center;
+}
+
+.center_header {
+  margin: auto;
+  text-align: center;
+  width: 66%;
+  padding: 10px;
+}
+
+.containers {
+  position: relative;
+  top: 50px;
+}
+
+.container {
+  min-width: 900px;
+}
+
+/* inline embed science */
+
+.gw2a-embed {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-left: 1px;
+  font-weight: bold;
+}
+
+.gw2a-specs {
+  width: 650px;
+  margin: auto;
+}
+
+/*tab styles*/
+
+.tablink {
+  background-color: #333333;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 24px;
+/* Adjust width % based on how many tabs you have */
+  width: 33.33%;
+}
+
+/* Feel free to change this to whatever color you prefer */
+.tablink:hover {
+  background-color: #ffbf80;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 80px;
+  height: 100%;
+  text-align: center;
+}
+
+.tabcontent_content {
+  text-align: left;
+  line-height: 1.6;
+  background-color: rgba(51, 51, 51, 0.7);
+  padding: 40px;
+}
+
+.tabcontent_content_text {
+  text-align: left;
+  line-height: 1.6;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* This is where you change the tab colors */
+
+#firstBuild {
+  background-color: #336699;
+}
+
+#secondBuild {
+  background-color: #2d862d;
+}
+
+#thirdBuild {
+  background-color: #cc9900;
+}
+
+asideleft {
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 2em;
+  overflow: hidden;
+}
+
+asideright {
+  margin-left: 50%;
+  overflow: hidden;
+}
