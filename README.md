@@ -1,5 +1,5 @@
 # GW2-Build-Template
-A template for GW2 WvW builds hosted on GitHub.
+A template for GW2 WvW builds hosted on GitHub. Here's an example of the one I made: [tgdm.github.io](https://tgdm.github.io/).
 
 #Getting Started
 Go here and set up a GitHub account and repository (it has step-by-step instructions): [pages.github](https://pages.github.com/)
@@ -39,3 +39,8 @@ Make sure you do not delete `"` or `>` by accident!
 This template comes with 3 tabs. If you only want 1 tab, 2 tabs, or if you want 4 tabs, you'll have to modify both the index.html and the style.css (found in /assets/stylesheet/). Add or subtract rows with the index.html near the top, assign names/colors on style.css near the bottom. If adding or subtracting tabs, adjust `.tablink` in the CSS file
 
 If you don't like the colors I used for the template (they're terrible), modify it to what you like - but make sure you edit both documents.
+
+##Tips and Practices for Adding Text
+You're going to want to learn about <p> paragraph tags and <a> link tags. When you want a line break, add <br> to the end.
+
+Google is your friend if you need help to do something. [w3schools](https://www.w3schools.com/) is a great resource.
