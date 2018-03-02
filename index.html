@@ -1,618 +1,725 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- NOTE: The <title></title> sets what the window name will be. Remove the comment tags to use it. -->
+	<!-- <title>My Build</title> -->
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="assets/stylesheet/style.css">
 </head>
 
 <body>
-	<!--start of main body  -->
+	<!-- start of header -->
+	<div class="header">
+		<div class="center_header">
+			<!-- THIS IS WHERE THE HEADER TEXT GOES -->
+			<h1 id="top">A WvW Guide for My Class</h1>
+		</div>
+	</div>
 	<div class="center_header">
-		<!-- THIS IS WHERE THE HEADER TEXT GOES -->
-		<h1 id="top">A WvW Guide for My Class</h1>
+		<!-- To get your class icon, change the name here -->
 		<img src="assets/class_icons/icon_Mesmer.png">
 	</div>
+	<!-- end of header -->
 
-	<!-- THIS IS WHERE THE TOP BUTTONS ARE MADE -->
-	<button class="tablink" onclick="openBuild('firstBuild', this, '#336699')" id="defaultOpen">First Build Name</button>
-	<button class="tablink" onclick="openBuild('secondBuild', this, '#2d862d')">Second Build Name</button>
-	<button class="tablink" onclick="openBuild('thirdBuild', this, '#cc9900')">Third Build Name</button>
-	<!-- THIS IS THE END OF THE TOP BUTTONS -->
+	<!--start of main body  -->
+	<div class="main">
+		<!-- THIS IS WHERE THE TOP BUTTONS ARE MADE -->
+		<button class="tablink" onclick="openBuild('firstBuild', this, '#336699')" id="defaultOpen">First Build Name</button>
+		<button class="tablink" onclick="openBuild('secondBuild', this, '#2d862d')">Second Build Name</button>
+		<button class="tablink" onclick="openBuild('thirdBuild', this, '#cc9900')">Third Build Name</button>
+		<!-- THIS IS THE END OF THE TOP BUTTONS -->
 
-	<!-- START OF FIRST BUILD -->
-	<div id="firstBuild" class="tabcontent">
-		<p><em>This is the first build.</em></p>
-		<h2>Gear</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- WEAPON -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="85253,85006,-1,85001"
-					data-armory-blank-text="Weapon Swap">
-					</div>
-					<!-- ARMOR -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="75940,76671,71968,74518,75183,72251">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- BACK/TRINKET1/TRINKET2 -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="81462,80002,80002"
-					data-armory-81462-stat="1114"
-					data-armory-80002-stat="1037"
-					data-armory-80002-stat="1037">
-					</div>
-					<!-- AMULET/RING1/RING2 -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="79980,80793,80793"
-					data-armory-79980-stat="584"
-					data-armory-80793-stat="584"
-					data-armory-80793-stat="584">
-					</div>
-					<!-- INFUSION -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="37131">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				This is where your text goes for the Gear section.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Runes & Sigils</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- TOP ROW RUNES -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="24714">
-					</div>
-					<!-- BOTTOM ROW RUNES -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="24836,24723">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- TOP ROW SIGILS -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="24615,24575">
-					</div>
-					<!-- BOTTOM ROW SIGILS -->
-					<div
-					data-armory-embed="items"
-					data-armory-ids="24554,24548,24562,24570,24607">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<b>For Runes:</b> Describe your rune choice here.<br>
-				<br>
-				<b>For Sigils:</b> Describe your sigil choice here.
-			</div>
-		</div>
-
-		<h2>Skill Bar</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div
-				data-armory-embed="skills"
-				data-armory-ids="5507,5734,45746,5536,5516">
+		<!-- START OF FIRST BUILD -->
+		<div id="firstBuild" class="tabcontent">
+			<p><em>This is the first build.</em></p>
+			<h2>Gear</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- WEAPON -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="85253,85006,-1,85001"
+						data-armory-blank-text="Weapon Swap"
+						>
+						</div>
+						<!-- ARMOR -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="75940,76671,71968,74518,75183,72251"
+						>
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- BACK/TRINKET1/TRINKET2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="81462,80002,80002"
+						data-armory-81462-stat="1114"
+						data-armory-80002-stat="1037"
+						data-armory-80002-stat="1037"
+						>
+						</div>
+						<!-- AMULET/RING1/RING2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="79980,80793,80793"
+						data-armory-79980-stat="584"
+						data-armory-80793-stat="584"
+						data-armory-80793-stat="584"
+						>
+						</div>
+						<!-- INFUSION -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="37131"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
 				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Healing Skill:</b>Describe your healing skill choice here.<br>
-				<br>
-				<b>Utility Skills:</b> Describe your utility skill choices here.<br>
-				<br>
-				<b>Elite Skills:</b> Describe your elite skill choice here.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Specializations & Traits</h2>
-		<div class="tabcontent_content">
-			<!-- EMBED SPEC SELECTION STARTS HERE  -->
-			<div class="gw2a-specs">
-				<div
-				data-armory-embed="specializations"
-				data-armory-ids="31,41,56"
-				data-armory-31-traits="296,325,1510"
-				data-armory-41-traits="232,1502,226"
-				data-armory-56-traits="2115,2061,2131">
-				</div>
-			</div>
-			<!-- EMBED SPEC SELECTION ENDS HERE  -->
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
-				<b>Spec1:</b> Describe your choice for spec 1<br>
-
-				<b>Spec2:</b> Describe your choice for spec 2.<br>
-
-				<b>Spec3:</b> Describe your choice for spec 3.
-				<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Consumables</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div
-				data-armory-embed="items"
-				data-armory-ids="77630,9443">
-				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Foods:</b> This is where your text for foods will go.<br>
-				<br>
-				<!-- EXAMPLE OF IN-LINE EMBEDS FOR OILS -->
-				<b>Oils:</b> This is where your text for oils will go.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>General Play</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-			<!-- This is a sample to show you how in-line embeds will work. Delete up until the next note to replace -->
-			Primary damage attunement will be
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5495">
-			</div>
-
-			so you can throw out
-
-			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="221" data-armory-inline-text="wiki">
-			</div>
-
-			and
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="43762" data-armory-inline-text="wiki">
-			</div>
-
-			for damage. This also leaves
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5683" data-armory-inline-text="wiki">
-			</div>
-
-			on your bar for lines.<br>
-			<br> Switch to
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5492">
-			</div>
-
-			when dropping
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5501" data-armory-inline-text="wiki">
-			</div>
-
-			(meatballs) to utilize bonus damage from the Weaver trait
-
-			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2131" data-armory-inline-text="wiki">
-			</div>
-
-			. Rotate back into
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5495">
-			</div>
-
-			if you need sustained damage, work toward
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
-			</div>
-
-			if you need to chase.<br>
-			<br> When out of combat and chasing the tag, try to stay in
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5494">
-			</div>
-
-			/ x for the movement speed buff from
-
-			<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="221" data-armory-inline-text="wiki">
-			</div>
-
-			.<br>
-			<br> A good opener to be in before a fight starts is
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
-			</div>
-
-			or
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
-			</div>
-
-			so you can throw out
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5682" data-armory-inline-text="wiki">
-			</div>
-
-			and
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5671" data-armory-inline-text="wiki">
-			</div>
-
-			before a fight. If
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
-			</div>
-
-			/
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
-			</div>
-
-			,
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="41184" data-armory-inline-text="wiki">
-			</div>
-
-			pierces targets and chills with 1200 range which can be useful and puts
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
-			</div>
-
-			into secondary which is less useful for damage. You'll have to make a judgement call if you have time to throw out
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5515" data-armory-inline-text="wiki">
-			</div>
-			or
-
-			<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5551" data-armory-inline-text="wiki">
-			</div>
-
-			as the fight breaks out.
-			<!-- End of example - safe to delete everything between and replace with your text -->
-			<!-- END OF TEXT SECTION  -->
-		</div>
-
-		<h2>Videos</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-				<div class="videoWrapper">
-					<!-- Put your iframe embed code between these two lines -->
-
-					<!-- Put your iframe embed code between these two lines -->
-				</div>
-
 				<div class="tabcontent_content_text">
-			Some gameplay footage.
+					<!-- START OF TEXT SECTION  -->
+					This is where your text goes for the Gear section.
+					<!-- END OF TEXT SECTION  -->
+				</div>
 			</div>
+
+			<h2>Runes & Sigils</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- TOP ROW RUNES -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24714"
+						>
+						</div>
+						<!-- BOTTOM ROW RUNES -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24836,24723"
+						>
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- TOP ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24615,24575"
+						>
+						</div>
+						<!-- BOTTOM ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24554,24548,24562,24570,24607"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<b>For Runes:</b> Describe your rune choice here.<br>
+					<br>
+					<b>For Sigils:</b> Describe your sigil choice here.
+				</div>
+			</div>
+
+			<h2>Skill Bar</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="skills"
+					data-armory-ids="5507,5734,45746,5536,5516"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Healing Skill:</b> Describe your healing skill choice here.<br>
+					<br>
+					<b>Utility Skills:</b> Describe your utility skill choices here.<br>
+					<br>
+					<b>Elite Skills:</b> Describe your elite skill choice here.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Specializations & Traits</h2>
+			<div class="tabcontent_content">
+				<!-- EMBED SPEC SELECTION STARTS HERE  -->
+				<div class="gw2a-specs">
+					<div
+					data-armory-embed="specializations"
+					data-armory-ids="31,41,56"
+					data-armory-31-traits="296,325,1510"
+					data-armory-41-traits="232,1502,226"
+					data-armory-56-traits="2115,2061,2131"
+					>
+					</div>
+				</div>
+				<!-- EMBED SPEC SELECTION ENDS HERE  -->
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
+					<b>Spec1:</b> Describe your choice for spec 1<br>
+
+					<b>Spec2:</b> Describe your choice for spec 2.<br>
+
+					<b>Spec3:</b> Describe your choice for spec 3.
+					<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Consumables</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="items"
+					data-armory-ids="77630,9443"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Foods:</b> This is where your text for foods will go.<br>
+					<br>
+					<!-- EXAMPLE OF IN-LINE EMBEDS FOR OILS -->
+					<b>Oils:</b> This is where your text for oils will go.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>General Play</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+				<!-- NOTE: This is a sample to show you how in-line embeds will work. Delete up until the next note to replace -->
+				Primary damage attunement will be
+
+				<div
+				class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5495">
+				</div>
+
+				so you can throw out
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="221" data-armory-inline-text="wiki">
+				</div>
+
+				and
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="43762" data-armory-inline-text="wiki">
+				</div>
+
+				for damage. This also leaves
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5683" data-armory-inline-text="wiki">
+				</div>
+
+				on your bar for lines.<br>
+				<br> Switch to
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5492">
+				</div>
+
+				when dropping
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5501" data-armory-inline-text="wiki">
+				</div>
+
+				(meatballs) to utilize bonus damage from the Weaver trait
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="2131" data-armory-inline-text="wiki">
+				</div>
+
+				. Rotate back into
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5495">
+				</div>
+
+				if you need sustained damage, work toward
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
+				</div>
+
+				if you need to chase.<br>
+				<br> When out of combat and chasing the tag, try to stay in
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5494">
+				</div>
+
+				/ x for the movement speed buff from
+
+				<div class="gw2a-embed" data-armory-embed="traits" data-armory-size="20" data-armory-ids="221" data-armory-inline-text="wiki">
+				</div>
+
+				.<br>
+				<br> A good opener to be in before a fight starts is
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
+				</div>
+
+				or
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5492">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
+				</div>
+
+				so you can throw out
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5682" data-armory-inline-text="wiki">
+				</div>
+
+				and
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5671" data-armory-inline-text="wiki">
+				</div>
+
+				before a fight. If
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
+				</div>
+
+				/
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="16" data-armory-ids="5494">
+				</div>
+
+				,
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="41184" data-armory-inline-text="wiki">
+				</div>
+
+				pierces targets and chills with 1200 range which can be useful and puts
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5493">
+				</div>
+
+				into secondary which is less useful for damage. You'll have to make a judgement call if you have time to throw out
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5515" data-armory-inline-text="wiki">
+				</div>
+				or
+
+				<div class="gw2a-embed" data-armory-embed="skills" data-armory-size="20" data-armory-ids="5551" data-armory-inline-text="wiki">
+				</div>
+
+				as the fight breaks out.
+				<!-- End of example - safe to delete everything between and replace with your text -->
+				<!-- END OF TEXT SECTION  -->
+			</div>
+
+			<h2>Videos</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+					<div class="videoWrapper">
+						<!-- Put your iframe embed code between these two lines -->
+
+						<!-- Put your iframe embed code between these two lines -->
+					</div>
+
+					<div class="tabcontent_content_text">
+				Some gameplay footage.
+				</div>
+			</div>
+			<h2><a href="#top">Go to top</a></h2>
 		</div>
-		<h2><a href="#top">Go to top</a></h2>
+		<!-- END OF FIRST BUILD -->
+
+		<!-- START OF SECOND BUILD -->
+		<div id="secondBuild" class="tabcontent">
+			<p>
+			</em>This is the second build.</em><br><br></p>
+			<h2>Gear</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- WEAPON -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="76889"
+						>
+						</div>
+						<!-- ARMOR -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="75940,76671,71968,74518,75183,72251"
+						>
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- BACK/TRINKET1/TRINKET2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="49390,80002,80002"
+						data-armory-49390-stat="584"
+						data-armory-80002-stat="584"
+						data-armory-80002-stat="584"
+						>
+						</div>
+						<!-- AMULET/RING1/RING2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="79980,80793,80793"
+						data-armory-79980-stat="584"
+						data-armory-80793-stat="584"
+						data-armory-80793-stat="584"
+						>
+						</div>
+						<!-- INFUSION -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="37131"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					This is where your text goes for the Gear section.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Runes & Sigils</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- TOP ROW RUNES -->
+						<div data-armory-embed="items" data-armory-ids="24714">
+						</div>
+						<!-- BOTTOM ROW RUNES -->
+						<div data-armory-embed="items" data-armory-ids="24836,24723">
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- TOP ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24615,24575"
+						>
+						</div>
+						<!-- BOTTOM ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24554,24548,24562,24570,24607"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<b>For Runes:</b> Describe your rune choice here.<br>
+					<br>
+					<b>For Sigils:</b> Describe your sigil choice here.
+				</div>
+			</div>
+
+			<h2>Skill Bar</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="skills"
+					data-armory-ids="5507,5734,45746,5536,5516"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Healing Skill:</b> Describe your healing skill choice here.<br>
+					<br>
+					<b>Utility Skills:</b> Describe your utility skill choices here.<br>
+					<br>
+					<b>Elite Skills:</b> Describe your elite skill choice here.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Specializations & Traits</h2>
+			<div class="tabcontent_content">
+				<!-- EMBED SPEC SELECTION STARTS HERE  -->
+				<div class="gw2a-specs">
+					<div
+					data-armory-embed="specializations"
+					data-armory-ids="31,41,56"
+					data-armory-31-traits="296,325,1510"
+					data-armory-41-traits="232,1502,226"
+					data-armory-56-traits="2115,2061,2131"
+					>
+					</div>
+				</div>
+				<!-- EMBED SPEC SELECTION ENDS HERE  -->
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
+					<b>Spec1:</b> Describe your choice for spec 1<br>
+
+					<b>Spec2:</b> Describe your choice for spec 2.<br>
+
+					<b>Spec3:</b> Describe your choice for spec 3.
+					<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Consumables</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="items"
+					data-armory-ids="77630,9443"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Foods:</b> This is where your text for foods will go.<br>
+					<br>
+					<b>Oils:</b> This is where your text for oils will go.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>General Play</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+				Explain how you play with this build here.
+				<!-- END OF TEXT SECTION  -->
+			</div>
+
+			<h2>Videos</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+				This is where your text for the video section goes.
+				<!-- END OF TEXT SECTION  -->
+			</div>
+			<h2><a href="#top">Go to top</a></h2>
+		</div>
+		<!-- END OF SECOND BUILD -->
+
+		<!-- START OF THIRD BUILD -->
+		<div id="thirdBuild" class="tabcontent">
+			<p>
+			</em>This is the third build.</em><br><br></p>
+			<h2>Gear</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- WEAPON -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="76889"
+						>
+						</div>
+						<!-- ARMOR -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="75940,76671,71968,74518,75183,72251"
+						>
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- BACK/TRINKET1/TRINKET2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="49390,80002,80002"
+						data-armory-49390-stat="584"
+						data-armory-80002-stat="584"
+						data-armory-80002-stat="584"
+						>
+						</div>
+						<!-- AMULET/RING1/RING2 -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="79980,80793,80793"
+						data-armory-79980-stat="584"
+						data-armory-80793-stat="584"
+						data-armory-80793-stat="584"
+						>
+						</div>
+						<!-- INFUSION -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="37131"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					This is where your text goes for the Gear section.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Runes & Sigils</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<asideleft>
+						<!-- TOP ROW RUNES -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24714"
+						>
+						</div>
+						<!-- BOTTOM ROW RUNES -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24836,24723"
+						>
+						</div>
+					</asideleft>
+					<asideright>
+						<!-- TOP ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24615,24575"
+						>
+						</div>
+						<!-- BOTTOM ROW SIGILS -->
+						<div
+						data-armory-embed="items"
+						data-armory-ids="24554,24548,24562,24570,24607"
+						>
+						</div>
+					</asideright>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<b>For Runes:</b> Describe your rune choice here.<br>
+					<br>
+					<b>For Sigils:</b> Describe your sigil choice here.
+				</div>
+			</div>
+
+			<h2>Skill Bar</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="skills"
+					data-armory-ids="5507,5734,45746,5536,5516"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Healing Skill:</b> Describe your healing skill choice here.<br>
+					<br>
+					<b>Utility Skills:</b> Describe your utility skill choices here.<br>
+					<br>
+					<b>Elite Skills:</b> Describe your elite skill choice here.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Specializations & Traits</h2>
+			<div class="tabcontent_content">
+				<!-- EMBED SPEC SELECTION STARTS HERE  -->
+				<div class="gw2a-specs">
+					<div
+					data-armory-embed="specializations"
+					data-armory-ids="31,41,56"
+					data-armory-31-traits="296,325,1510"
+					data-armory-41-traits="232,1502,226"
+					data-armory-56-traits="2115,2061,2131"
+					>
+					</div>
+				</div>
+				<!-- EMBED SPEC SELECTION ENDS HERE  -->
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
+					<b>Spec1:</b> Describe your choice for spec 1<br>
+
+					<b>Spec2:</b> Describe your choice for spec 2.<br>
+
+					<b>Spec3:</b> Describe your choice for spec 3.
+					<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>Consumables</h2>
+			<div class="tabcontent_content">
+				<div class="center">
+					<!-- THIS IS WHERE THE EMBED STARTS -->
+					<div
+					data-armory-embed="items"
+					data-armory-ids="77630,9443"
+					>
+					</div>
+					<!-- THIS IS WHERE THE EMBED ENDS -->
+				</div>
+				<div class="tabcontent_content_text">
+					<!-- START OF TEXT SECTION  -->
+					<b>Foods:</b> This is where your text for foods will go.<br>
+					<br>
+					<b>Oils:</b> This is where your text for oils will go.
+					<!-- END OF TEXT SECTION  -->
+				</div>
+			</div>
+
+			<h2>General Play</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+				Explain how you play with this build here.
+				<!-- END OF TEXT SECTION  -->
+			</div>
+
+			<h2>Videos</h2>
+			<div class="tabcontent_content">
+				<!-- START OF TEXT SECTION  -->
+				This is where your text for the video section goes.
+				<!-- END OF TEXT SECTION  -->
+			</div>
+			<h2><a href="#top">Go to top</a></h2>
+		</div>
+		<!-- END OF THIRD BUILD -->
 	</div>
-	<!-- END OF FIRST BUILD -->
-
-	<!-- START OF SECOND BUILD -->
-	<div id="secondBuild" class="tabcontent">
-		<p>
-		</em>This is the second build.</em><br><br></p>
-		<h2>Gear</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- WEAPON -->
-					<div data-armory-embed="items" data-armory-ids="76889">
-					</div>
-					<!-- ARMOR -->
-					<div data-armory-embed="items" data-armory-ids="75940,76671,71968,74518,75183,72251">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- BACK/TRINKET1/TRINKET2 -->
-					<div data-armory-embed="items" data-armory-ids="49390,80002,80002" data-armory-49390-stat="584" data-armory-80002-stat="584" data-armory-80002-stat="584">
-					</div>
-					<!-- AMULET/RING1/RING2 -->
-					<div data-armory-embed="items" data-armory-ids="79980,80793,80793" data-armory-79980-stat="584" data-armory-80793-stat="584" data-armory-80793-stat="584">
-					</div>
-					<!-- INFUSION -->
-					<div data-armory-embed="items" data-armory-ids="37131">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				This is where your text goes for the Gear section.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Runes & Sigils</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- TOP ROW RUNES -->
-					<div data-armory-embed="items" data-armory-ids="24714">
-					</div>
-					<!-- BOTTOM ROW RUNES -->
-					<div data-armory-embed="items" data-armory-ids="24836,24723">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- TOP ROW SIGILS -->
-					<div data-armory-embed="items" data-armory-ids="24615,24575">
-					</div>
-					<!-- BOTTOM ROW SIGILS -->
-					<div data-armory-embed="items" data-armory-ids="24554,24548,24562,24570,24607">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<b>For Runes:</b> Describe your rune choice here.<br>
-				<br>
-				<b>For Sigils:</b> Describe your sigil choice here.
-			</div>
-		</div>
-
-		<h2>Skill Bar</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div data-armory-embed="skills" data-armory-ids="5507,5734,45746,5536,5516">
-				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Healing Skill:</b>Describe your healing skill choice here.<br>
-				<br>
-				<b>Utility Skills:</b> Describe your utility skill choices here.<br>
-				<br>
-				<b>Elite Skills:</b> Describe your elite skill choice here.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Specializations & Traits</h2>
-		<div class="tabcontent_content">
-			<!-- EMBED SPEC SELECTION STARTS HERE  -->
-			<div class="gw2a-specs">
-				<div data-armory-embed="specializations" data-armory-ids="31,41,56" data-armory-31-traits="296,325,1510" data-armory-41-traits="232,1502,226" data-armory-56-traits="2115,2061,2131">
-				</div>
-			</div>
-			<!-- EMBED SPEC SELECTION ENDS HERE  -->
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
-				<b>Spec1:</b> Describe your choice for spec 1<br>
-
-				<b>Spec2:</b> Describe your choice for spec 2.<br>
-
-				<b>Spec3:</b> Describe your choice for spec 3.
-				<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Consumables</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div data-armory-embed="items" data-armory-ids="77630,9443">
-				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Foods:</b> This is where your text for foods will go.<br>
-				<br>
-				<b>Oils:</b> This is where your text for oils will go.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>General Play</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-			Explain how you play with this build here.
-			<!-- END OF TEXT SECTION  -->
-		</div>
-
-		<h2>Videos</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-			This is where your text for the video section goes.
-			<!-- END OF TEXT SECTION  -->
-		</div>
-		<h2><a href="#top">Go to top</a></h2>
-	</div>
-	<!-- END OF SECOND BUILD -->
-
-	<!-- START OF THIRD BUILD -->
-	<div id="thirdBuild" class="tabcontent">
-		<p>
-		</em>This is the third build.</em><br><br></p>
-		<h2>Gear</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- WEAPON -->
-					<div data-armory-embed="items" data-armory-ids="76889">
-					</div>
-					<!-- ARMOR -->
-					<div data-armory-embed="items" data-armory-ids="75940,76671,71968,74518,75183,72251">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- BACK/TRINKET1/TRINKET2 -->
-					<div data-armory-embed="items" data-armory-ids="49390,80002,80002" data-armory-49390-stat="584" data-armory-80002-stat="584" data-armory-80002-stat="584">
-					</div>
-					<!-- AMULET/RING1/RING2 -->
-					<div data-armory-embed="items" data-armory-ids="79980,80793,80793" data-armory-79980-stat="584" data-armory-80793-stat="584" data-armory-80793-stat="584">
-					</div>
-					<!-- INFUSION -->
-					<div data-armory-embed="items" data-armory-ids="37131">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				This is where your text goes for the Gear section.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Runes & Sigils</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<asideleft>
-					<!-- TOP ROW RUNES -->
-					<div data-armory-embed="items" data-armory-ids="24714">
-					</div>
-					<!-- BOTTOM ROW RUNES -->
-					<div data-armory-embed="items" data-armory-ids="24836,24723">
-					</div>
-				</asideleft>
-				<asideright>
-					<!-- TOP ROW SIGILS -->
-					<div data-armory-embed="items" data-armory-ids="24615,24575">
-					</div>
-					<!-- BOTTOM ROW SIGILS -->
-					<div data-armory-embed="items" data-armory-ids="24554,24548,24562,24570,24607">
-					</div>
-				</asideright>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<b>For Runes:</b> Describe your rune choice here.<br>
-				<br>
-				<b>For Sigils:</b> Describe your sigil choice here.
-			</div>
-		</div>
-
-		<h2>Skill Bar</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div data-armory-embed="skills" data-armory-ids="5507,5734,45746,5536,5516">
-				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Healing Skill:</b>Describe your healing skill choice here.<br>
-				<br>
-				<b>Utility Skills:</b> Describe your utility skill choices here.<br>
-				<br>
-				<b>Elite Skills:</b> Describe your elite skill choice here.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Specializations & Traits</h2>
-		<div class="tabcontent_content">
-			<!-- EMBED SPEC SELECTION STARTS HERE  -->
-			<div class="gw2a-specs">
-				<div data-armory-embed="specializations" data-armory-ids="31,41,56" data-armory-31-traits="296,325,1510" data-armory-41-traits="232,1502,226" data-armory-56-traits="2115,2061,2131">
-				</div>
-			</div>
-			<!-- EMBED SPEC SELECTION ENDS HERE  -->
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<p align="center"><em>Use the build shown above unless you're having problems or feel comfortable enough to  test something new.</em></p>
-				<b>Spec1:</b> Describe your choice for spec 1<br>
-
-				<b>Spec2:</b> Describe your choice for spec 2.<br>
-
-				<b>Spec3:</b> Describe your choice for spec 3.
-				<!-- NOTE: You can add more spec options beyond the 3 as well if you want to include variants. -->
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>Consumables</h2>
-		<div class="tabcontent_content">
-			<div class="center">
-				<!-- THIS IS WHERE THE EMBED STARTS -->
-				<div data-armory-embed="items" data-armory-ids="77630,9443">
-				</div>
-				<!-- THIS IS WHERE THE EMBED ENDS -->
-			</div>
-			<div class="tabcontent_content_text">
-				<!-- START OF TEXT SECTION  -->
-				<b>Foods:</b> This is where your text for foods will go.<br>
-				<br>
-				<b>Oils:</b> This is where your text for oils will go.
-				<!-- END OF TEXT SECTION  -->
-			</div>
-		</div>
-
-		<h2>General Play</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-			Explain how you play with this build here.
-			<!-- END OF TEXT SECTION  -->
-		</div>
-
-		<h2>Videos</h2>
-		<div class="tabcontent_content">
-			<!-- START OF TEXT SECTION  -->
-			This is where your text for the video section goes.
-			<!-- END OF TEXT SECTION  -->
-		</div>
-		<h2><a href="#top">Go to top</a></h2>
-	</div>
-	<!-- END OF THIRD BUILD -->
-
-
 	<!--end of main body-->
+
 	<script src="assets/js/tabs.js"></script>
 	<script async src="https://unpkg.com/armory-embeds@^0.4.0/armory-embeds.js"></script>
 </body>
