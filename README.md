@@ -43,6 +43,6 @@ This template comes with 3 tabs. If you only want 1 tab, 2 tabs, or if you want 
 If you don't like the colors I used for the template (they're terrible), modify it to what you like - but make sure you edit both documents.
 
 ## Tips and Practices for Adding Text
-You're going to want to learn about <p> paragraph tags and <a> link tags. When you want a line break, add <br> to the end.
+You're going to want to learn about `<p>` paragraph tags and `<a>` link tags. When you want a line break, add `<br>` to the end.
 
 Google is your friend if you need help to do something. [w3schools](https://www.w3schools.com/) is a great resource.
